@@ -39,7 +39,7 @@ const Dashboard = () => {
                 </div>
             </div>
 
-            <div className='right md:w-1/2 bg-background h-screen p-4 md:px-10 py-6 mt-8 md:mt-0'>
+            <div className='right md:w-1/2 bg-background p-4 md:px-10 py-8 mt-8 md:mt-0'>
                 <div>
                     <CalendarUI/>
                 </div>

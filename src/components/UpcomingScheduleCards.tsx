@@ -3,6 +3,7 @@ import { ScheduleItem } from '@/data/types';
 import { upcomingScheduleData } from '@data/upcomingSchedule';
 
 const UpcomingScheduleCards: React.FC = () => {
+  
   return (
     <div className='mb-10'>
 

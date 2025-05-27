@@ -19,8 +19,8 @@ const ScheduleCards: React.FC = () => {
               </p>
               <img src={item.icon} alt="icon" className="w-5 h-5" />
             </div>
-            <p className={`${textColor} text-sm font-regular`}>{item.time}</p>
-            <p className={`${textColor} text-sm font-regular`}>{item.drName}</p>
+            <p className={`${textColor} text-xs font-semibold`}>{item.time}</p>
+            <p className={`${textColor} text-xs font-semibold`}>{item.drName}</p>
           </div>
         );
       })}

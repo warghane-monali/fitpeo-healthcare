@@ -16,7 +16,7 @@ const RouterPool = createBrowserRouter([
 		path: "/dashboard",
 		Component: DashLayout,
 		children: [
-			{ index:true, path: "", Component: Dashboard },
+			{ index: true, path: "", Component: Dashboard },
 		]
 	},
 ]);

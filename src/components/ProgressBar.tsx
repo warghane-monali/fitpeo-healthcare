@@ -10,6 +10,7 @@ const getRangeColor = (range: number): string => {
 };
 
 export const ProgressBar = ({ range }: Props) => {
+  
   return (
     <div className="w-full">
       <div className="h-2 w-full bg-gray-200 rounded-full overflow-hidden">

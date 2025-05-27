@@ -9,7 +9,7 @@ export const scheduleData: Schedule[] = [
         appointmentName: "Dentist",
         icon : Tooth,
         time : "9:00 - 11:00",
-        drName : "Dr Cameron Williamson",
+        drName : "Dr. Cameron Williamson",
         selected : true
     },
     {
@@ -17,7 +17,7 @@ export const scheduleData: Schedule[] = [
         appointmentName: "Physiotherapy Appointment",
         icon : Biceps,
         time : "11:00 - 12:00",
-        drName : " Dr Kevin Djones",
+        drName : " Dr. Kevin Djones",
         selected : false
     }
 ]

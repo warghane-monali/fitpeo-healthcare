@@ -18,3 +18,9 @@ export interface Schedule {
     drName :string
     selected : boolean
 }
+
+export interface TimeSlot {
+  day : string;
+  date: string;
+  times: string[];
+}
