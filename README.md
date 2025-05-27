@@ -43,7 +43,7 @@
   main.jsx
 
 4. Clone the repository
-  git clone https://github.com/your-username/healthcare-dashboard.git
+  git clone https://github.com/warghane-monali/fitpeo-healthcare.git
   cd filpe-healthcare
 
 5.Install dependencies
