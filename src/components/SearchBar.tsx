@@ -1,4 +1,4 @@
-import { Bell, CircleUserRound, Plus, Search } from 'lucide-react';
+import { Bell, Plus, Search } from 'lucide-react';
 import React from 'react';
 import Man from "../assets/man-light-skin-tone-svgrepo-com.svg"
 
