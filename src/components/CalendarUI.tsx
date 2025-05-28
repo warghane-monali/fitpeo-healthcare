@@ -13,7 +13,7 @@ const handleSlotClick = (date:string, time:string)=> {
 };
 
   return (
-    <div className=" bg-[#f4f7fb] text-[#2f2f2f]">
+    <div className=" bg-[#f4f7fb] text-[#2f2f2f] ">
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-sm font-semibold text-primary">October 2021</h2>
         <div className="flex space-x-2">
@@ -22,10 +22,12 @@ const handleSlotClick = (date:string, time:string)=> {
         </div>
       </div>
 
-      <div className="grid grid-cols-7 gap-2 text-center">
+  <div className="overflow-x-auto">
+      <div className="min-w-[500px]  grid grid-cols-7 gap-2 text-center">
         {calender.map((itm, index) =>{
           return(
-          <div className={` px-2 py-3 ${selectedSlot.date === itm.date && 'bg-secondary rounded-3xl'}`}>
+          <div className={`px-2 py-3 ${selectedSlot.date === itm.date && 'bg-secondary rounded-3xl'} `}>
+
               <div key={index} className={`font-medium text-sm text-primary`}>
                 {itm.day}
               </div>
@@ -50,11 +52,14 @@ const handleSlotClick = (date:string, time:string)=> {
                   })
                 }
               </div>
+
+              
+
           </div>
         )})
         }
       </div>
-
+</div>
     </div>
 
 

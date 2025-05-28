@@ -67,7 +67,7 @@ const Sidebar = () => {
 	return (
 		<>
 			<button
-				className="md:hidden fixed top-4 left-4 z-50 p-2 bg-white rounded-md shadow-md"
+				className="md:hidden fixed top-4 left-4 z-50 p-2"
 				onClick={() => setDrawerOpen(true)}
 				aria-label="Open menu"
 			>
@@ -105,13 +105,13 @@ const Sidebar = () => {
 
 					{dashboardFeatures.map((feature, index) => (
 						<div key={index} className="w-full">
-							<h3 className="text-gray-400 font-semibold text-xs ps-6 py-2 mt-2">{feature.category}</h3>
+							<h3 className="text-gray-400 font-semibold text-xs ps-2 py-2 mt-2">{feature.category}</h3>
 							{
 								feature.features.map((item) => {
 									return (
 										<button
 											className={`mb-1 ${active === item.route ? "text-primary font-semibold" : "text-gray-500"}  
-											text-start font-medium text-sm ps-6 py-2 rounded-r-md cursor-pointer w-5/6 flex items-center gap-3`}
+											text-start font-medium text-sm ps-2 py-2 rounded-r-md cursor-pointer w-5/6 flex items-center gap-3`}
 											onClick={() => handleFeatureClick(item.route)}>
 											<item.icon className={`${active === item.route ? "text-primary fill-primary" : "text-gray-500"}`} size={15} /> {item.name}
 										</button>

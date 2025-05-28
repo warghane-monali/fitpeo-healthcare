@@ -12,7 +12,7 @@ const DashLayout = () => {
         <Sidebar />
       </aside>
 
-      <main className="md:ml-[16vw] flex-1 flex flex-col h-screen overflow-hidden  ">
+      <main className="md:ml-[16vw] flex-1 flex flex-col h-screen overflow-hidden">
 
         <div className='sticky top-0 z-10 pl-14 pr-6 py-4 md:px-6 bg-white'>
           <SearchBar />

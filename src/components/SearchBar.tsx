@@ -5,11 +5,11 @@ import Man from "../assets/man-light-skin-tone-svgrepo-com.svg"
 const SearchBar: React.FC = () => {
   return (
 
-  <div className='flex justify-between gap-2 md:gap-0 w-full'>
+  <div className='flex justify-between gap-2 md:gap-0 w-full '>
 
-    <div className="flex items-center gap-4 w-full max-w-md">
+    <div className="flex items-center gap-4 ">
     {/* Search Bar */}
-      <div className="flex items-center gap-2 flex-grow rounded-xl border border-gray-200 px-4 py-2">
+      <div className="flex items-center gap-2 flex-grow rounded-xl border border-gray-200 px-4 py-2 w-40 md:w-100">
         <Search size={16} className="text-gray-500" />
         <input
           type="text"
@@ -26,7 +26,7 @@ const SearchBar: React.FC = () => {
 
     <div className='flex gap-2 md:gap-4'>
         <div className='bg-ternary p-2 rounded-xl'>
-          <img src={Man} className='w-5 h-5'/>
+          <img src={Man} className='w-5'/>
           {/* <CircleUserRound size={22} className='text-primary' /> */}
         </div>
         <div className='bg-primary p-2 rounded-xl'>
