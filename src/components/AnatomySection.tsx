@@ -1,6 +1,5 @@
 import Anotomy from '@assets/Anotomy.png';
 import Heart from "../assets/heart-svgrepo-com.svg";
-import Scan from "../assets/scan-it-svgrepo-com.svg";
 import Leg from "../assets/leg-svgrepo-com.svg"
 import { ScanLine } from 'lucide-react';
 
